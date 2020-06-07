@@ -1,7 +1,23 @@
 {
+  "name": "catbot",
+  "version": "1.0.0",
+  "description": "A simple Twitter bot that posts random cat pictures every hour using Unsplashed API to get the images.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "cats",
+    "twitter-bot"
+  ],
+  "author": "pedro-crv",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
     "twitter": "^1.7.1"
+  },
+  "engines": {
+    "node": "11.14"
   }
 }
