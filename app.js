@@ -20,10 +20,11 @@ const T = new Twitter(config);
 axios.defaults.headers.common['Accept-Version'] = 'v1';
 axios.defaults.headers.common['Authorization'] = `Client-ID ${process.env.UNSPLASHED_CLIENT_ID}`;
 
+
 var tweetPhoto = function() {
     axios.get('https://api.unsplash.com/photos/random',{
         params: {
-            query: 'cat'
+            query: 'cute cat'
         }
     }).then(function(response) {
         photo = response.data;
