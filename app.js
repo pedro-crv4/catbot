@@ -50,7 +50,7 @@ var tweetPhoto = function() {
         console.log('Media uploaded');
     
         var status = {
-            status: `credits to ${photo.user.name} at https://unsplash.com/@${photo.user.username}`,
+            status: `credits to ${photo.user.name} at https://unsplash.com/@${photo.user.username} #cat #cats #cattwitter #gato #gatos #cute`,
             media_ids: media.media_id_string
         }
     
